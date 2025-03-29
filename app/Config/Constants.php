@@ -78,6 +78,18 @@ defined('EXIT_DATABASE')       || define('EXIT_DATABASE', 8);       // database 
 defined('EXIT__AUTO_MIN')      || define('EXIT__AUTO_MIN', 9);      // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125);    // highest automatically-assigned error code
 
+
+//definir una costante
+
+define('RECURSOS_LOGIN_SCSS','recursos_login/scss');
+define('RECURSOS_LOGIN_CSS','recursos_login/css');
+define('RECURSOS_LOGIN_JS','recursos_login/js');
+define('RECURSOS_LOGIN_FONTS','recursos_login/fonts');
+define('RECURSOS_LOGIN_IMAGES','recursos_login/images');
+
+
+
+
 /**
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_LOW instead.
  */
