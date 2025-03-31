@@ -80,12 +80,12 @@ defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125);    // highest a
 
 
 //definir una costante
-
-define('RECURSOS_LOGIN_SCSS','recursos_login/scss');
-define('RECURSOS_LOGIN_CSS','recursos_login/css');
-define('RECURSOS_LOGIN_JS','recursos_login/js');
-define('RECURSOS_LOGIN_FONTS','recursos_login/fonts');
-define('RECURSOS_LOGIN_IMAGES','recursos_login/images');
+//RECURSOS PLANTILLA
+define('RECURSOS_PORTA_LOGIN_CSS','recursos_portal/css');
+define('RECURSOS_PORTA_LOGIN_FONTS','recursos_portal/fonts');
+define('RECURSOS_PORTA_LOGIN_IMG','recursos_portal/img');
+define('RECURSOS_PORTA_LOGIN_JS','recursos_portal/js');
+define('RECURSOS_PORTA_LOGIN_VIDEOS','recursos_portal/videos');
 
 
 

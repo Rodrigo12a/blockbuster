@@ -4,14 +4,21 @@ namespace App\Controllers;
 
 class Login extends BaseController {
     public function index(){
-        return view('Login');
+        return view('portal/components/header').
+        view('portal/components/navbar').
+        view('portal/login/index').
+        view('portal/components/footer');
     }
 
-    public function index2($id){
-        return "<h2>Funcion con parametros:  $id <h2>";
+    public function register(){
+        return view('login/components/header').
+        view('login/register').
+        view('login/components/footer');
     }
 
-    public function index3($id, $email){
-        return "<h2>Funcion con parametros:  $id  email : $email <h2>";
+    public function forgotPassword(){
+        return view('login/components/header').
+        view('login/forgot_password').
+        view('login/components/footer');
     }
 }
