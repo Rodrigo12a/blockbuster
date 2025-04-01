@@ -1,5 +1,7 @@
 
+    <?php $this->extend('layouts/main')?>
     <!-- Normal Breadcrumb Begin -->
+     <?php $this->section('login')?>
     <section class="normal-breadcrumb set-bg" data-setbg="<?=RECURSOS_PORTA_LOGIN_IMG.'/normal-breadcrumb1.png'?>">
         <div class="container">
             <div class="row">
@@ -38,7 +40,7 @@
                 <div class="col-lg-6">
                     <div class="login__register">
                         <h3>Dont’t Have An Account?</h3>
-                        <a href="#" class="primary-btn">Register Now</a>
+                        <a href="/register" class="primary-btn">Register Now</a>
                     </div>
                 </div>
             </div>
@@ -61,3 +63,4 @@
         </div>
     </section>
     <!-- Login Section End -->
+    <?php $this->endSection()?>

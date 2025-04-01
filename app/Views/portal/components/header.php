@@ -1,3 +1,7 @@
+<!--Importar las dependencias-->
+<?=$this->extend('login/index')?>
+
+<?=$this->Section('header')?>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -30,3 +34,4 @@
     <div id="preloder">
         <div class="loader"></div>
     </div>
+    <?=$this->endSection('header')?>

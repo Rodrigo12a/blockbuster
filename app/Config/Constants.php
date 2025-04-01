@@ -87,7 +87,12 @@ define('RECURSOS_PORTA_LOGIN_IMG','recursos_portal/img');
 define('RECURSOS_PORTA_LOGIN_JS','recursos_portal/js');
 define('RECURSOS_PORTA_LOGIN_VIDEOS','recursos_portal/videos');
 
-
+//RECURSOS DASHBOARD
+define('RECURSOS_PANEL_CSS','recursos_panel/css');
+define('RECURSOS_PANEL_PLUGINS','recursos_panel/plugins');
+define('RECURSOS_PANEL_IMAGES','recursos_panel/images');
+define('RECURSOS_PANEL_JS','recursos_panel/js');
+define('RECURSOS_PANEL_SCSS','recursos_panel/scss');
 
 
 /**
