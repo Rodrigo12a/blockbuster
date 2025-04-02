@@ -1,4 +1,6 @@
-
+<?php $this->extend('layouts/main')?>
+    <!-- Normal Breadcrumb Begin -->
+    <?php $this->section('content')?>
     <!-- Normal Breadcrumb Begin -->
     <section class="normal-breadcrumb set-bg" data-setbg="img/normal-breadcrumb.jpg">
         <div class="container">
@@ -126,3 +128,4 @@
         </div>
     </section>
     <!-- Blog Section End -->
+    <?php $this->endSection()?>

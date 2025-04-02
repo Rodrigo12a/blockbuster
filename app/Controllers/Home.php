@@ -4,33 +4,29 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
+    private $view = 'portal/pages/'; //definimos una carpeta base
+    private function load_data() {
+        $data = array();
+
+        $data['nombre_pagina'] = 'Blockbuster';
+        $data['titulo_pagina'] = 'Dashboard';
+        return $data;
+    }//end load data
+
+    private function create_View($name_view = ''){
+        return view($this->view.$name_view, $this->load_data());
+    }//end create view
 
 
-
-
-
-
-    public function index(): string
-    {
-        return view('portal/components/header').
-        view('portal/components/navbar').
-        view('portal/pages/index').
-        view('portal/components/footer');
+    public function index(): string {
+        return $this->create_View('index');
     }
 
-    public function categorias(): string
-    {
-        return view('portal/components/header').
-        view('portal/components/navbar').
-        view('portal/pages/categorias').
-        view('portal/components/footer');
+    public function categorias(): string {
+        return $this->create_View('categorias');
     }
 
-    public function blog(): string
-    {
-        return view('portal/components/header').
-        view('portal/components/navbar').
-        view('portal/pages/blog').
-        view('portal/components/footer');
+    public function blog(): string {
+        return $this->create_View('blog');
     }
 }

@@ -1,7 +1,7 @@
 
     <?php $this->extend('layouts/main')?>
     <!-- Normal Breadcrumb Begin -->
-     <?php $this->section('login')?>
+     <?php $this->section('content')?>
     <section class="normal-breadcrumb set-bg" data-setbg="<?=RECURSOS_PORTA_LOGIN_IMG.'/normal-breadcrumb1.png'?>">
         <div class="container">
             <div class="row">
@@ -34,13 +34,13 @@
                             </div>
                             <button type="submit" class="site-btn">Login Now</button>
                         </form>
-                        <a href="#" class="forget_pass">Forgot Your Password?</a>
+                        <a href="<?=site_url('forgot-password')?>" class="forget_pass">Forgot Your Password?</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="login__register">
                         <h3>Dont’t Have An Account?</h3>
-                        <a href="/register" class="primary-btn">Register Now</a>
+                        <a href="<?=site_url('/register ')?>" class="primary-btn">Register Now</a>
                     </div>
                 </div>
             </div>

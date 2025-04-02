@@ -13,7 +13,7 @@ $routes->get('/blog', 'Home::blog');
 //login
 $routes->get('/login', 'Login::index');//arreglo temporal
 $routes->get('/register', 'Login::register');
-$routes->get('/forgot-password', 'Login::forgotPassword');
+$routes->get('forgot-password', 'Login::forgotPassword');
 
 //dashboard
 $routes->get('/dashboard', 'panel\Dashboard::index');

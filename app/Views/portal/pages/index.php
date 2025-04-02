@@ -1,4 +1,6 @@
-
+    <?php $this->extend('layouts/main')?>
+    <!-- Normal Breadcrumb Begin -->
+    <?php $this->section('content')?>
     <!-- Hero Section Begin -->
     <section class="hero">
         <div class="container">
@@ -606,4 +608,5 @@
 </div>
 </section>
 <!-- Product Section End -->
+<?php $this->endSection()?>
 

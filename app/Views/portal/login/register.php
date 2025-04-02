@@ -1,4 +1,6 @@
-
+    <?php $this->extend('layouts/main')?>
+    <!-- Normal Breadcrumb Begin -->
+     <?php $this->section('content')?>
     <!-- Normal Breadcrumb Begin -->
     <section class="normal-breadcrumb set-bg" data-setbg="<?=RECURSOS_PORTA_LOGIN_IMG.'/normal-breadcrumb1.png'?>">
         <div class="container">
@@ -48,7 +50,7 @@
                             </div>
                             <button type="submit" class="site-btn">Login Now</button>
                         </form>
-                        <a href="#" class="forget_pass">Forgot Your Password?</a>
+                        <a href="<?=site_url('/forgot-password')?>" class="forget_pass">Forgot Your Password?</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -77,3 +79,4 @@
         </div>
     </section>
     <!-- Login Section End -->
+     <?php $this->endSection()?>

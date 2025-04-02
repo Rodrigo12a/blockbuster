@@ -1,4 +1,6 @@
-
+    <?php $this->extend('layouts/main')?>
+    <!-- Normal Breadcrumb Begin -->
+    <?php $this->section('content')?>
     <!-- Breadcrumb Begin -->
     <div class="breadcrumb-option">
         <div class="container">
@@ -448,3 +450,4 @@
 </div>
 </section>
 <!-- Product Section End -->
+<?php $this->endSection()?>

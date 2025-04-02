@@ -1,4 +1,4 @@
-    <!-- Footer Section Begin -->
+   <!-- Footer Section Begin -->
     <footer class="footer">
         <div class="page-up">
             <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
@@ -41,18 +41,3 @@
         </div>
     </div>
     <!-- Search model end -->
-
-    <!-- Js Plugins -->
-    <script src="<?=base_url(RECURSOS_PORTA_LOGIN_JS.'/jquery-3.3.1.min.js')?>"></script>
-    <script src="<?=base_url(RECURSOS_PORTA_LOGIN_JS.'/bootstrap.min.js')?>"></script>
-    <script src="<?=base_url(RECURSOS_PORTA_LOGIN_JS.'/player.js')?>"></script>
-    <script src="<?=base_url(RECURSOS_PORTA_LOGIN_JS.'/jquery.nice-select.min.js')?>"></script>
-    <script src="<?=base_url(RECURSOS_PORTA_LOGIN_JS.'/mixitup.min.js')?>"></script>
-    <script src="<?=base_url(RECURSOS_PORTA_LOGIN_JS.'/jquery.slicknav.js')?>"></script>
-    <script src="<?=base_url(RECURSOS_PORTA_LOGIN_JS.'/owl.carousel.min.js')?>"></script>
-    <script src="<?=base_url(RECURSOS_PORTA_LOGIN_JS.'/main.js')?>"></script>
-
-
-</body>
-
-</html>
